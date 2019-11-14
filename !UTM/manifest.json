@@ -1,0 +1,17 @@
+{
+    "name": "!UTM",
+    "description": "Remove UTM parameters from URL prior to requesting a webpage.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*", 
+        "https://*/*"
+    ]
+}
